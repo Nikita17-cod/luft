@@ -49,6 +49,7 @@
 
 .section-button-sort {
   text-transform: uppercase;
+
   &--active {
     font-weight: bolder;
   }
@@ -61,6 +62,6 @@
 
 .card {
   margin: auto;
-  padding-right:0;
+  padding-right: 0;
   padding-left: 0;
 }
