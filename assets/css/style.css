@@ -1,0 +1,215 @@
+.navbar-nav > li > a {
+  margin: 5px;
+}
+
+a.nav-link {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.wb {
+  border-radius: 1px;
+}
+
+body {
+  font-size: 16px;
+}
+
+.header {
+  position: relative;
+  display: grid;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  min-height: 5vh;
+  padding: 100px 20px 30px;
+  color: #ffffff;
+  background-position: 50% 50%;
+  background-size: cover;
+  font: "PT Serif", serif;
+}
+
+.header-menu__container {
+  position: relative;
+  display: grid;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-right: 0;
+  padding-bottom: 1.25rem;
+  padding-left: 0;
+  grid-template-columns: auto 1fr;
+}
+
+.header-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.header-brand__logo {
+  margin-right: 10px;
+}
+
+.header-brand__luft {
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.header-brand__software {
+  font-size: 18px;
+  width: 80px;
+  height: 15px;
+  left: 155px;
+  top: 40px;
+  opacity: 0.6;
+}
+
+.header-content__title {
+  position: relative;
+  display: block;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: "PT Sans", sans-serif;
+  padding-top: 20px;
+}
+
+.header-content__description {
+  position: relative;
+  display: block;
+  color: #fff;
+  font-size: 1rem;
+  padding-bottom: 40px;
+}
+
+.content {
+  background-color: #fff;
+}
+
+.navbar {
+  border-bottom: 1px solid #dddddd;
+}
+
+.latest {
+  position: relative;
+}
+
+.latest-element__p {
+  width: 12.5rem;
+  height: 2.5rem;
+  left: 2.5rem;
+  margin-top: 2rem;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.875rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.0625rem;
+  color: #14301F;
+}
+
+.section {
+  padding: 20px;
+}
+
+.section-p {
+  width: 202px;
+  height: 40px;
+  left: 40px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: 1px;
+  color: #14301F;
+}
+
+.section-buttons {
+  padding-bottom: 20px;
+}
+
+.section-button-sort {
+  text-transform: uppercase;
+}
+
+.section-button-sort--active {
+  font-weight: bolder;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.card {
+  margin: auto;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.footer {
+  position: relative;
+}
+
+.footer-brand__luft {
+  position: absolute;
+  margin-top: 0.625rem;
+  margin-left: 0.625rem;
+  color: #fff;
+  font-size: 1.0625rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.125rem;
+}
+
+.footer-brand__software {
+  position: absolute;
+  margin-top: 0.625rem;
+  margin-left: 3.4375rem;
+  color: #dddddd;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 1.125rem;
+  letter-spacing: 1px;
+}
+
+.footer-brand__img {
+  margin-left: 3.43rem;
+}
+
+.footer-element__button {
+  margin-left: 10rem;
+}
+
+.footer-element__text {
+  font-family: "PT Sans", sans-serif;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 2.875rem;
+  letter-spacing: 0.125rem;
+  text-align: left;
+}
+
+.footer-element__link-one {
+  position: absolute;
+  margin-top: 3.125rem;
+  margin-left: 20rem;
+  opacity: 50%;
+}
+
+.footer-element__link-two {
+  position: absolute;
+  margin-top: 1.25rem;
+  margin-left: 10rem;
+  opacity: 50%;
+}

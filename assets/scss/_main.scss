@@ -1,0 +1,66 @@
+.latest {
+  position: relative;
+
+  &-element {
+
+    &__p {
+      //position: absolute;
+      width: 12.5rem;
+      height: 2.5rem;
+      left: 2.5rem;
+      margin-top: 2rem;
+
+      font-style: normal;
+      font-weight: 900;
+      font-size: 1.875rem;
+      line-height: 2.5rem;
+      letter-spacing: 0.0625rem;
+
+      color: #14301F;
+    }
+  }
+}
+
+.section {
+
+  &-p {
+    width: 202px;
+    height: 40px;
+    left: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 40px;
+
+    letter-spacing: 1px;
+
+    color: #14301F;
+  }
+
+  padding: 20px;
+}
+
+.section-buttons {
+  padding-bottom: 20px;
+}
+
+.section-button-sort {
+  text-transform: uppercase;
+  &--active {
+    font-weight: bolder;
+  }
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  margin: auto;
+  padding-right:0;
+  padding-left: 0;
+}
