@@ -22,7 +22,7 @@
       font-style: normal;
       font-weight: 200;
       line-height: 1.125rem;
-      letter-spacing: 1px;
+      letter-spacing: 0.0625rem;
     }
 
     &__img {
@@ -48,14 +48,14 @@
 
     &__link {
 
-      &-one {
+      &--first {
         position: absolute;
         margin-top: 3.125rem;
         margin-left: 20rem;
         opacity: 50%;
       }
 
-      &-two {
+      &--second {
         position: absolute;
         margin-top: 1.25rem;
         margin-left: 10rem;

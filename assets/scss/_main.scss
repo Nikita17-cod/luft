@@ -4,7 +4,6 @@
   &-element {
 
     &__p {
-      //position: absolute;
       width: 12.5rem;
       height: 2.5rem;
       left: 2.5rem;
@@ -24,27 +23,27 @@
 .section {
 
   &-p {
-    width: 202px;
-    height: 40px;
-    left: 40px;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    margin-left: 50px;
+    width: 12.625rem;
+    height: 2.5rem;
+    left: 2.5rem;
+    margin-top: 1.875rem;
+    margin-bottom: 1.25rem;
+    margin-left: 3.125rem;
     font-style: normal;
     font-weight: 900;
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 1.875rem;
+    line-height: 2.5rem;
 
-    letter-spacing: 1px;
+    letter-spacing: 0.0625rem;
 
     color: #14301F;
   }
 
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 .section-buttons {
-  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
 }
 
 .section-button-sort {
@@ -64,4 +63,75 @@
   margin: auto;
   padding-right: 0;
   padding-left: 0;
+}
+
+.main {
+  position: relative;
+
+  &-content {
+    height: 1400px;
+
+    &__desc {
+      position: absolute;
+      width: 352px;
+      height: 32px;
+      left: 40px;
+      padding-top: 90px;
+      font-style: normal;
+      font-weight: 650;
+      font-size: 25px;
+      line-height: 32px;
+    }
+
+    &__text {
+
+      &--first {
+        position: absolute;
+        width: 600px;
+        height: 144px;
+        left: 40px;
+        padding-top: 150px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+      }
+
+      &--second {
+        position: absolute;
+        width: 600px;
+        height: 144px;
+        left: 40px;
+        padding-top: 250px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+      }
+
+      &--right {
+        position: absolute;
+        width: 600px;
+        height: 144px;
+        left: 850px;
+        padding-top: 150px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+      }
+
+    }
+
+    &__image {
+      width: 260px;
+      height: 245px;
+      margin-top: 80px;
+      margin-left: 140px;
+    }
+
+    &__picture {
+      margin-top: 100px;
+    }
+  }
 }
