@@ -1,0 +1,95 @@
+.section {
+
+  &-btn {
+
+    background-color: #FAFAFA;
+    border: none;
+
+    &__arr {
+      color: #7D7D7D;
+    }
+
+    &__back {
+      color: #87958D;
+    }
+  }
+
+  &-image {
+    width: 100%;
+    margin-top: 0.625rem;
+    margin-bottom: 3.125rem;
+  }
+
+  &-about {
+
+    &__title {
+      h1 {
+        font-weight: 900;
+      }
+    }
+
+    &__tags p{
+      color: rgba(20, 48, 31, 0.4);
+    }
+    & span {
+      padding-right: 0.625rem;
+    }
+
+    &__image p {
+      padding-top: 1.25rem;
+    }
+
+    &__accent {
+      border-left: 0.375rem solid black;
+      height: auto;
+      padding-left: 1.875rem;
+
+      strong{
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 0.001rem;
+      }
+
+      p {
+        color: rgba(20, 48, 31, 0.4);
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+
+.slides {
+  margin-top: -2.5rem;
+  margin-left: 0.625rem;
+}
+
+.section-more {
+  background: $color-primary-light;
+  //margin: -0.625rem 0.75rem;
+  padding: 3.125rem 0;
+
+  &__title {
+    font-weight: 750;
+    font-size: 30px;
+  }
+}
+
+.card {
+  background-color: transparent;
+  border: none;
+  margin: 1.25rem;
+}
+
+.container-my {
+  max-width: 790px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.section-mybuttons {
+  padding-bottom: 40px;
+}

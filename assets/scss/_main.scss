@@ -73,6 +73,7 @@
 }
 
 .main {
+  background: #FAFAFA;
   position: relative;
 
   &-content {
@@ -120,7 +121,7 @@
         position: absolute;
         width: 37.5rem;
         height: 9rem;
-        left: 53.125re,;
+        left: 53.125 re,;
         padding-top: 9.375rem;
         font-style: normal;
         font-weight: normal;
@@ -169,5 +170,31 @@
     margin-top: 0.625rem;
     margin-bottom: 0.625rem;
     margin-left: 0.9375rem;
+  }
+}
+
+.section-card {
+  &__author {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0.875rem;
+    letter-spacing: 0.0625rem;
+    text-align: left;
+    color: #A9B3AD;
+  }
+
+  &__title {
+    font-size: 1.875rem;
+    font-weight: 700;
+  }
+
+  &__text {
+    font-weight: 500;
+  }
+
+  &__img {
+    height: 100%;
+    width: 100%;
   }
 }

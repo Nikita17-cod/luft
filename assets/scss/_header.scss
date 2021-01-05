@@ -39,6 +39,12 @@ body {
   &-brand {
 
     &__logo {
+
+      &--dark {
+        margin-right: 0.625rem;
+        margin-bottom: 0.4375rem;
+      }
+
       margin-right: 0.625rem;
     }
 
@@ -84,9 +90,6 @@ body {
   }
 }
 
-a {
-
-}
 
 .content {
   background-color: $color-light;

@@ -32,8 +32,24 @@
 
   &-element {
 
+    &__p {
+      margin-top: 1.25rem;
+      width: 31.25rem;
+    }
+
+    &__input {
+      background-color: #55695D;
+    }
+
     &__button {
       margin-left: 10rem;
+
+      &--en {
+        background-color: $color-light;
+        padding-right: 1.5625rem;
+        width: 3.125rem;
+        height: 1.25rem;
+      }
     }
 
     &__text {
@@ -63,4 +79,8 @@
       }
     }
   }
+}
+
+a {
+  text-decoration: none;
 }
