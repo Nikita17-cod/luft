@@ -1,14 +1,14 @@
 .navbar-nav > li > a {
-  margin: 5px;
+  margin: 0.3125rem;
 }
 
 a.nav-link {
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: bold;
 }
 
 .wb {
-  border-radius: 1px;
+  border-radius: 0.0625rem;
 }
 
 body {
@@ -120,7 +120,7 @@ body {
 }
 
 .section-p {
-  width: 12.625rem;
+  width: 50rem;
   height: 2.5rem;
   left: 2.5rem;
   margin-top: 1.875rem;
@@ -137,6 +137,10 @@ body {
 .section-buttons {
   padding-bottom: 1.25rem;
   padding-left: 3.125rem;
+}
+
+.section-buttons__component {
+  margin-right: 0.35rem;
 }
 
 .section-button-sort {
@@ -229,6 +233,34 @@ body {
   margin-top: 6.25rem;
   height: auto;
   min-width: 100%;
+}
+
+.section-cards {
+  display: grid;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  margin-left: 3.125rem;
+}
+
+.section-cards__p {
+  margin-bottom: 0.9375rem;
+  margin-left: 0.9375rem;
+  font-style: normal;
+}
+
+.section-cards__title {
+  margin-top: 0.9375rem;
+  margin-left: 0.9375rem;
+  font-style: normal;
+  font-weight: 650;
+  font-size: 1.5625rem;
+}
+
+.section-cards__button {
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
+  margin-left: 0.9375rem;
 }
 
 .footer {

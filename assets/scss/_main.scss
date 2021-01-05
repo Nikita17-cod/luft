@@ -23,7 +23,7 @@
 .section {
 
   &-p {
-    width: 12.625rem;
+    width: 50rem;
     height: 2.5rem;
     left: 2.5rem;
     margin-top: 1.875rem;
@@ -43,6 +43,11 @@
 }
 
 .section-buttons {
+
+  &__component {
+    margin-right: 0.35rem;
+  }
+
   padding-bottom: 1.25rem;
   padding-left: 3.125rem;
 }
@@ -137,5 +142,32 @@
       height: auto;
       min-width: 100%;
     }
+  }
+}
+
+.section-cards {
+
+  display: grid;
+  justify-content: start;
+  margin-left: 3.125rem;
+
+  &__p {
+    margin-bottom: 0.9375rem;
+    margin-left: 0.9375rem;
+    font-style: normal;
+  }
+
+  &__title {
+    margin-top: 0.9375rem;
+    margin-left: 0.9375rem;
+    font-style: normal;
+    font-weight: 650;
+    font-size: 1.5625rem;
+  }
+
+  &__button {
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+    margin-left: 0.9375rem;
   }
 }
