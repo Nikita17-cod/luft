@@ -44,6 +44,7 @@
 
 .section-buttons {
   padding-bottom: 1.25rem;
+  padding-left: 3.125rem;
 }
 
 .section-button-sort {
@@ -63,75 +64,78 @@
   margin: auto;
   padding-right: 0;
   padding-left: 0;
+  margin-bottom: 1.5625rem;
 }
 
 .main {
   position: relative;
 
   &-content {
-    height: 1400px;
+    height: 87.5rem;
 
     &__desc {
       position: absolute;
-      width: 352px;
-      height: 32px;
-      left: 40px;
-      padding-top: 90px;
+      width: 22rem;
+      height: 2rem;
+      left: 6.875rem;
+      padding-top: 5.625rem;
       font-style: normal;
       font-weight: 650;
-      font-size: 25px;
-      line-height: 32px;
+      font-size: 1.5625rem;
+      line-height: 2rem;
     }
 
     &__text {
 
       &--first {
         position: absolute;
-        width: 600px;
-        height: 144px;
-        left: 40px;
-        padding-top: 150px;
+        width: 37.5rem;
+        height: 9rem;
+        left: 6.875rem;
+        padding-top: 9.375rem;
         font-style: normal;
         font-weight: normal;
-        font-size: 16px;
-        line-height: 24px;
+        font-size: 1rem;
+        line-height: 1.5rem;
       }
 
       &--second {
         position: absolute;
-        width: 600px;
-        height: 144px;
-        left: 40px;
-        padding-top: 250px;
+        width: 37.5rem;
+        height: 9rem;
+        left: 6.875rem;
+        padding-top: 15.625rem;
         font-style: normal;
         font-weight: normal;
-        font-size: 16px;
-        line-height: 24px;
+        font-size: 1rem;
+        line-height: 1.5rem;
       }
 
       &--right {
         position: absolute;
-        width: 600px;
-        height: 144px;
-        left: 850px;
-        padding-top: 150px;
+        width: 37.5rem;
+        height: 9rem;
+        left: 53.125re,;
+        padding-top: 9.375rem;
         font-style: normal;
         font-weight: normal;
-        font-size: 16px;
-        line-height: 24px;
+        font-size: 1rem;
+        line-height: 1.5rem;
       }
 
     }
 
     &__image {
-      width: 260px;
-      height: 245px;
-      margin-top: 80px;
-      margin-left: 140px;
+      width: 16.25rem;
+      height: 15.3125rem;
+      margin-top: 5rem;
+      margin-left: 13.125rem;
     }
 
     &__picture {
-      margin-top: 100px;
+      margin-top: 6.25rem;
+      height: auto;
+      min-width: 100%;
     }
   }
 }
