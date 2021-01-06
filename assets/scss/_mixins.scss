@@ -1,0 +1,11 @@
+@mixin header {
+  position: relative;
+  display: grid;
+  align-items: end;
+  min-height: 5vh;
+  padding: 0.0625rem 0.75rem;
+  color: $color-light;
+  background-position: 50% 50%;
+  background-size: cover;
+  font: $font-header;
+}
