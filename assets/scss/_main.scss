@@ -22,6 +22,49 @@
 
 .section {
 
+  &-forms {
+
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 800px;
+
+    &__btn {
+      background-color: #14301F;
+      margin-top: 1.5rem;
+      border-radius: 2px;
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    &__email, &__name, &__current, &__exp {
+      height: $f-s;
+      border-radius: 3px;
+    }
+
+  }
+
+  &-title {
+    width: 900px;
+    margin-top: 2rem;
+    margin-left: 3.125rem;
+  }
+
+    &-h {
+
+      &__four {
+        font-weight: 400;
+        margin-left: 3.125rem;
+      }
+
+      &__three {
+        margin-top: 42px;
+        font-size: 32px;
+        font-weight: 650;
+        margin-left: 3.125rem;
+      }
+
+  }
+
   &-p {
     width: 50rem;
     height: 2.5rem;
@@ -31,7 +74,7 @@
     margin-left: 3.125rem;
     font-style: normal;
     font-weight: 900;
-    font-size: 1.875rem;
+    font-size: 2.5rem;
     line-height: 2.5rem;
 
     letter-spacing: 0.0625rem;
@@ -121,7 +164,7 @@
         position: absolute;
         width: 37.5rem;
         height: 9rem;
-        left: 53.125 re,;
+        left: 53.125rem;
         padding-top: 9.375rem;
         font-style: normal;
         font-weight: normal;

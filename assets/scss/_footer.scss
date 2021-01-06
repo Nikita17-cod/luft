@@ -34,11 +34,37 @@
 
     &__p {
       margin-top: 1.25rem;
+      margin-left: 30px;
       width: 31.25rem;
+    }
+
+    &__search {
+      width: 300px; /* Ширина поля с кнопкой */
+      border: 1px solid #000; /* Параметры рамки */
+      min-height: 20px; /* Минимальная высота */
+
+      &--input {
+        border: none; /* Убираем рамку */
+        outline: none; /* Убираем свечение в Chrome и Safari */
+        -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+        width: 274px; /* Ширина поля */
+        vertical-align: middle; /* Выравнивание по середине */
+      }
+
+      &--button {
+        width: 20px; /* Ширина кнопки */
+        height: 20px; /* Высота кнопки */
+        border: none; /* Убираем рамку */
+        background: url(images/video.png) no-repeat 50% 50%; /* Параметры фона */
+      }
+
     }
 
     &__input {
       background-color: #55695D;
+      border-color: $color-light;
+      border-width: 2px;
+      border-radius: 2px;
     }
 
     &__button {
@@ -47,14 +73,16 @@
       &--en {
         background-color: $color-light;
         padding-right: 1.5625rem;
-        width: 3.125rem;
-        height: 1.25rem;
+        height: 35px;
+        border-radius: 1px;
+        border: none;
+        width: 5rem;
       }
     }
 
     &__text {
       font-family: $font-main;
-      font-size: 2.25rem;
+      font-size: 2rem;
       font-style: normal;
       font-weight: 900;
       line-height: 2.875rem;

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .navbar-nav > li > a {
   margin: 0.3125rem;
 }
@@ -124,6 +125,43 @@ body {
   padding: 1.25rem;
 }
 
+.section-forms {
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 800px;
+}
+
+.section-forms__btn {
+  background-color: #14301F;
+  margin-top: 1.5rem;
+  border-radius: 2px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.section-forms__email, .section-forms__name, .section-forms__current, .section-forms__exp {
+  height: 50px;
+  border-radius: 3px;
+}
+
+.section-title {
+  width: 900px;
+  margin-top: 2rem;
+  margin-left: 3.125rem;
+}
+
+.section-h__four {
+  font-weight: 400;
+  margin-left: 3.125rem;
+}
+
+.section-h__three {
+  margin-top: 42px;
+  font-size: 32px;
+  font-weight: 650;
+  margin-left: 3.125rem;
+}
+
 .section-p {
   width: 50rem;
   height: 2.5rem;
@@ -133,7 +171,7 @@ body {
   margin-left: 3.125rem;
   font-style: normal;
   font-weight: 900;
-  font-size: 1.875rem;
+  font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.0625rem;
   color: #14301F;
@@ -220,7 +258,7 @@ body {
   position: absolute;
   width: 37.5rem;
   height: 9rem;
-  left: 53.125 re;
+  left: 53.125rem;
   padding-top: 9.375rem;
   font-style: normal;
   font-weight: normal;
@@ -296,6 +334,7 @@ body {
 .section-btn {
   background-color: #FAFAFA;
   border: none;
+  margin-left: 2.5rem;
 }
 
 .section-btn__arr {
@@ -425,11 +464,48 @@ body {
 
 .footer-element__p {
   margin-top: 1.25rem;
+  margin-left: 30px;
   width: 31.25rem;
+}
+
+.footer-element__search {
+  width: 300px;
+  /* Ширина поля с кнопкой */
+  border: 1px solid #000;
+  /* Параметры рамки */
+  min-height: 20px;
+  /* Минимальная высота */
+}
+
+.footer-element__search--input {
+  border: none;
+  /* Убираем рамку */
+  outline: none;
+  /* Убираем свечение в Chrome и Safari */
+  -webkit-appearance: none;
+  /* Убираем рамку в Chrome и Safari */
+  width: 274px;
+  /* Ширина поля */
+  vertical-align: middle;
+  /* Выравнивание по середине */
+}
+
+.footer-element__search--button {
+  width: 20px;
+  /* Ширина кнопки */
+  height: 20px;
+  /* Высота кнопки */
+  border: none;
+  /* Убираем рамку */
+  background: url(images/video.png) no-repeat 50% 50%;
+  /* Параметры фона */
 }
 
 .footer-element__input {
   background-color: #55695D;
+  border-color: #fff;
+  border-width: 2px;
+  border-radius: 2px;
 }
 
 .footer-element__button {
@@ -439,13 +515,15 @@ body {
 .footer-element__button--en {
   background-color: #fff;
   padding-right: 1.5625rem;
-  width: 3.125rem;
-  height: 1.25rem;
+  height: 35px;
+  border-radius: 1px;
+  border: none;
+  width: 5rem;
 }
 
 .footer-element__text {
   font-family: "PT Sans", sans-serif;
-  font-size: 2.25rem;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 900;
   line-height: 2.875rem;
