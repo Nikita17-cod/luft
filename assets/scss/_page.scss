@@ -35,6 +35,18 @@
       padding-right: 0.625rem;
     }
 
+    &__btn {
+      background-color: $color-light;
+      border: none;
+      width: 35px;
+    }
+
+    &__desc {
+      color: #7D7D7D;
+      font-weight: 650;
+      padding-bottom: 25px;
+    }
+
     &__image p {
       padding-top: 1.25rem;
     }
@@ -66,13 +78,17 @@
 
 .section-more {
   background: $color-primary-light;
-  //margin: -0.625rem 0.75rem;
   padding: 3.125rem 0;
 
   &__title {
     font-weight: 750;
     font-size: 30px;
   }
+
+  &__box {
+    margin-top: 20px;
+  }
+
 }
 
 .card {
@@ -82,12 +98,12 @@
 }
 
 .container-my {
-  max-width: 790px;
+  max-width: 1000px;
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  padding-right: 15px;
-  padding-left: 15px;
+  //padding-right: 15px;
+  //padding-left: 15px;
 }
 
 .section-mybuttons {
