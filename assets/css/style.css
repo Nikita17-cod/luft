@@ -82,7 +82,6 @@ body {
   font-family: "PT Sans", sans-serif;
   padding-top: 10rem;
   padding-left: 2rem;
-  padding-right: 31.25rem;
 }
 
 .header-content__description {
@@ -92,7 +91,7 @@ body {
   font-size: 1rem;
   padding-bottom: 2.5rem;
   padding-left: 2rem;
-  padding-right: 57.25rem;
+  width: 650px;
 }
 
 .content {
