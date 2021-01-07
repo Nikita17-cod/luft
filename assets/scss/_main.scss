@@ -22,29 +22,72 @@
 
 .section {
 
+  &-info {
+
+    border-radius: 2px;
+
+    &__title {
+      width: 330px;
+      font-size: 20px;
+      font-weight: 700;
+      margin-left: 1rem;
+
+      &--short {
+        width: 180px;
+        font-size: 20px;
+        font-weight: 700;
+        margin-left: 1rem;
+      }
+
+    }
+
+    &__text {
+      color: #006427;
+      margin-left: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    &__img {
+      width: 20px;
+      height: 2rem;
+      margin-left: 2rem;
+      margin-top: 2rem;
+      margin-bottom: 1.5rem;
+    }
+
+  }
+
+  &-brands {
+    width: 2rem;
+    height: 10rem;
+    padding-top: 2.5rem;
+    margin-left: 5rem;
+    margin-bottom: 3.125rem;
+  }
+
   &-forms {
 
-    margin-top: 50px;
-    margin-left: 50px;
-    width: 800px;
+    margin-top: 3.125rem;
+    margin-left: 3.125rem;
+    width: 50rem;
 
     &__btn {
       background-color: #14301F;
       margin-top: 1.5rem;
-      border-radius: 2px;
-      font-size: 16px;
+      border-radius: 0.125rem;
+      font-size: 1rem;
       font-weight: 600;
     }
 
     &__email, &__name, &__current, &__exp {
       height: $f-s;
-      border-radius: 3px;
+      border-radius: 0.1875rem;
     }
 
   }
 
   &-title {
-    width: 900px;
+    width: 56.25rem;
     margin-top: 2rem;
     margin-left: 3.125rem;
   }
@@ -57,8 +100,8 @@
       }
 
       &__three {
-        margin-top: 42px;
-        font-size: 32px;
+        margin-top: 2.625rem;
+        font-size: 2rem;
         font-weight: 650;
         margin-left: 3.125rem;
       }
@@ -241,3 +284,7 @@
     width: 100%;
   }
 }
+
+//p {
+//  color: #14301F;
+//}

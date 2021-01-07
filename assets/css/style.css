@@ -124,27 +124,67 @@ body {
   padding: 1.25rem;
 }
 
+.section-info {
+  border-radius: 2px;
+}
+
+.section-info__title {
+  width: 330px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 1rem;
+}
+
+.section-info__title--short {
+  width: 180px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 1rem;
+}
+
+.section-info__text {
+  color: #006427;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+}
+
+.section-info__img {
+  width: 20px;
+  height: 2rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.section-brands {
+  width: 2rem;
+  height: 10rem;
+  padding-top: 2.5rem;
+  margin-left: 5rem;
+  margin-bottom: 3.125rem;
+}
+
 .section-forms {
-  margin-top: 50px;
-  margin-left: 50px;
-  width: 800px;
+  margin-top: 3.125rem;
+  margin-left: 3.125rem;
+  width: 50rem;
 }
 
 .section-forms__btn {
   background-color: #14301F;
   margin-top: 1.5rem;
-  border-radius: 2px;
-  font-size: 16px;
+  border-radius: 0.125rem;
+  font-size: 1rem;
   font-weight: 600;
 }
 
 .section-forms__email, .section-forms__name, .section-forms__current, .section-forms__exp {
   height: 50px;
-  border-radius: 3px;
+  border-radius: 0.1875rem;
 }
 
 .section-title {
-  width: 900px;
+  width: 56.25rem;
   margin-top: 2rem;
   margin-left: 3.125rem;
 }
@@ -155,8 +195,8 @@ body {
 }
 
 .section-h__three {
-  margin-top: 42px;
-  font-size: 32px;
+  margin-top: 2.625rem;
+  font-size: 2rem;
   font-weight: 650;
   margin-left: 3.125rem;
 }
@@ -364,13 +404,13 @@ body {
 .section-about__btn {
   background-color: #fff;
   border: none;
-  width: 35px;
+  width: 2.1875rem;
 }
 
 .section-about__desc {
   color: #7D7D7D;
   font-weight: 650;
-  padding-bottom: 25px;
+  padding-bottom: 1.5625rem;
 }
 
 .section-about__image p {
@@ -406,28 +446,78 @@ body {
 
 .section-more__title {
   font-weight: 750;
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 
 .section-more__box {
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 .card {
   background-color: transparent;
-  border: none;
   margin: 1.25rem;
 }
 
 .container-my {
-  max-width: 1000px;
+  max-width: 62.5rem;
   position: relative;
   margin-left: auto;
   margin-right: auto;
 }
 
 .section-mybuttons {
-  padding-bottom: 40px;
+  padding-bottom: 2.5rem;
+}
+
+.files input {
+  -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+  -o-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+  transition: outline-offset .15s ease-in-out, background-color .15s linear;
+  padding: 7.5rem 0 5.3125rem 35%;
+  text-align: center !important;
+  margin: 0;
+  width: 100% !important;
+}
+
+.files {
+  position: relative;
+}
+
+.files:after {
+  pointer-events: none;
+  position: absolute;
+  top: 2.1875rem;
+  left: 0;
+  width: 3.125rem;
+  right: 0;
+  height: 3.5rem;
+  content: "";
+  background-image: url(https://image.flaticon.com/icons/png/128/109/109612.png);
+  display: block;
+  margin: 0 auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.color input {
+  background-color: #f1f1f1;
+}
+
+.files:before {
+  position: absolute;
+  bottom: 0.625rem;
+  left: 0;
+  pointer-events: none;
+  width: 100%;
+  right: 0;
+  height: 3.5625rem;
+  content: "Drag&drop or browse for computer";
+  display: block;
+  margin: 0 auto;
+  color: #89978F;
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-align: center;
 }
 
 .footer {
@@ -462,15 +552,51 @@ body {
 
 .footer-element__p {
   margin-top: 1.25rem;
-  margin-left: 30px;
+  margin-left: 1.875rem;
   width: 31.25rem;
+}
+
+.footer-element ::-webkit-input-placeholder {
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 300;
+}
+
+.footer-element ::-moz-placeholder {
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 300;
+}
+
+.footer-element :-ms-input-placeholder {
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 300;
+}
+
+.footer-element ::-ms-input-placeholder {
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 300;
+}
+
+.footer-element ::placeholder {
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 300;
 }
 
 .footer-element__input {
   background-color: #55695D;
   border-color: #fff;
-  border-width: 2px;
-  border-radius: 2px;
+  margin-top: 2rem;
+  max-width: 32rem;
+  height: 3.125rem;
+  margin-bottom: 1.25rem;
+  margin-left: 1.875rem;
+  width: 31.25rem;
+  border-width: 0.125rem;
+  border-radius: 0.125rem;
 }
 
 .footer-element__button {
@@ -479,11 +605,13 @@ body {
 
 .footer-element__button--en {
   background-color: #fff;
-  padding-right: 1.5625rem;
-  height: 35px;
-  border-radius: 1px;
-  border: none;
-  width: 5rem;
+  margin-top: 2rem;
+  height: 3.125rem;
+  border-radius: 0.0625rem;
+  width: 8rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #2F4839;
 }
 
 .footer-element__text {
