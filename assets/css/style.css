@@ -707,19 +707,27 @@ a {
   .section-more__title {
     margin-left: 21.875rem;
   }
+  .section-more__box {
+    margin-left: 1.875rem;
+    margin-right: 1.875rem;
+  }
   .section-p {
     width: 34rem;
   }
-  .section-title {
+  .section--title {
     max-width: 40rem;
+  }
+  .section-card__body {
+    max-width: 60rem;
   }
   .main-content__picture {
     max-width: 18.75rem;
   }
-  .card {
-    max-width: 60rem;
+  .main-content__text--right {
+    padding-top: 25rem;
+    padding-right: 10rem;
   }
-  .section-card__body {
+  .card {
     max-width: 60rem;
   }
   .footer-element__link--second {
@@ -730,15 +738,37 @@ a {
     margin-top: 2rem;
     margin-left: 0;
   }
-  .section-more__box {
-    margin-left: 1.875rem;
-    margin-right: 1.875rem;
-  }
 }
 
 @media screen and (max-width: 992px) {
   .section-cards {
     margin-left: 0;
+  }
+  .section-cards__body {
+    display: none;
+  }
+  .section-brands {
+    margin-left: 0;
+  }
+  .section-forms {
+    width: 38rem;
+  }
+  .section-forms__control {
+    display: none;
+  }
+  .section-forms__email, .section-forms__name, .section-forms__current {
+    max-width: 43.75rem;
+  }
+  .section-forms__exp {
+    max-width: 18.3125rem;
+  }
+  .section-title {
+    width: 43.75rem;
+    margin-top: 2rem;
+    margin-left: 3.125rem;
+  }
+  .section-more__title {
+    margin-left: 16rem;
   }
   .footer-element__link--second {
     display: none;
@@ -746,19 +776,17 @@ a {
   .footer-element__link--first {
     display: none;
   }
-  .section-card__body {
-    display: none;
+  .footer-element__p {
+    margin-left: 22%;
+    margin-right: 17%;
   }
-  .section-brands {
-    margin-left: 0;
+  .footer-element__button--en {
+    margin-right: 17%;
+  }
+  .footer-element__input {
+    margin-left: 17%;
   }
   .main-content__image {
-    display: none;
-  }
-  .footer-element__link--first {
-    max-width: 6.25rem;
-  }
-  .section-forms__control {
     display: none;
   }
   .main-content__picture {
@@ -799,25 +827,34 @@ a {
     font-size: 0.7rem;
     line-height: 1.5rem;
   }
-  .section-title {
-    width: 43.75rem;
-    margin-top: 2rem;
-    margin-left: 3.125rem;
-  }
-  .section-forms__email, .section-forms__name, .section-forms__current {
-    max-width: 43.75rem;
-  }
-  .section-forms__exp {
-    max-width: 18.3125rem;
-  }
-  .section-forms__control {
-    max-width: 37.5rem;
-  }
 }
 
 @media screen and (max-width: 768px) {
   .section-cards {
     margin-left: 0;
+  }
+  .section-more__title {
+    margin-left: 10.625rem;
+  }
+  .section-more__box {
+    margin-left: 7rem !important;
+  }
+  .section-title {
+    width: 31.25rem;
+    margin-top: 2rem;
+    margin-left: 3.125rem;
+  }
+  .section-forms {
+    width: 20rem;
+  }
+  .section-forms__email, .section-forms__name, .section-forms__current, .section-forms__exp {
+    max-width: 31.25rem;
+  }
+  .section-forms__btn {
+    margin-left: 60px;
+  }
+  .section-p {
+    width: 30rem;
   }
   .footer-element__link--second {
     display: none;
@@ -828,70 +865,69 @@ a {
   .footer-element__p {
     width: 25rem;
   }
+  .footer-element__button {
+    margin-left: 0;
+  }
   .header-content__description {
     width: 18.75rem;
-  }
-  .section-more__title {
-    margin-left: 10.625rem;
   }
   .main-content__image {
     display: none;
   }
   .main-content__text--right {
-    margin-top: 18.75rem;
-    padding-right: 18.75rem;
-  }
-  .section-more__box {
-    margin-left: 12.5rem;
-  }
-  .section-title {
-    width: 31.25rem;
-    margin-top: 2rem;
-    margin-left: 3.125rem;
-  }
-  .section-forms__email, .section-forms__name, .section-forms__current, .section-forms__exp {
-    max-width: 31.25rem;
+    margin-top: 16rem;
   }
   .form-group {
     width: 25rem;
     margin-left: 0.0625rem;
   }
-  .section-p {
-    width: 30rem;
-  }
 }
 
 @media screen and (max-width: 576px) {
+  .section-about__tags {
+    display: inline;
+  }
   .section-p {
-    width: 16rem;
+    width: 20rem;
     margin-bottom: 2.5rem;
     margin-left: 2rem;
   }
   .section-cards {
     margin-left: 0;
   }
-  .footer-element__link--second {
-    display: none;
-  }
-  .footer-element__link--first {
-    display: none;
-  }
   .section-more__title {
     margin-left: 6.25rem;
   }
   .section-more__box {
-    margin-left: 1.25rem;
-    width: 15.625rem;
+    max-width: 200px;
+    margin-left: 50px !important;
+    margin-right: 50px !important;
   }
   .section-title {
     width: 18.75rem;
     margin-top: 2rem;
     margin-left: 3.125rem;
   }
-  .section-forms__email, .section-forms__name, .section-forms__current, .section-forms__exp {
+  .section-forms__email, .section-forms__name, .section-forms__current {
     max-width: 18.75rem;
   }
   .section-buttons {
     padding-left: 0;
+  }
+  .footer-element__p {
+    width: 20rem;
+    margin-left: 13%;
+  }
+  .footer-element__input {
+    display: none;
+  }
+  .footer-element__button--en {
+    display: none;
+  }
+  .footer-element__link--second {
+    display: none;
+  }
+  .footer-element__link--first {
+    display: none;
   }
 }
