@@ -197,7 +197,7 @@
       }
 
       &__box {
-        margin-left: 7rem !important;
+        margin-left: 6.5rem !important;
       }
     }
 
@@ -296,7 +296,7 @@
       }
       &__box {
         max-width: 200px;
-        margin-left: 50px!important;
+        margin-left: 40px!important;
         margin-right: 50px!important;
       }
     }
@@ -346,4 +346,16 @@
   //  //margin-right: 20rem!important;
   //  //width: 15.625rem;
   //}
+}
+
+@media screen and (max-width: 435px) {
+  .section-more {
+    &__box {
+      margin-left: 0!important;
+      width: 15.625rem;
+    }
+    &__title {
+      margin-left: 3.5rem;
+    }
+  }
 }

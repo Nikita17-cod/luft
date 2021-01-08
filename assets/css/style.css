@@ -837,7 +837,7 @@ a {
     margin-left: 10.625rem;
   }
   .section-more__box {
-    margin-left: 7rem !important;
+    margin-left: 6.5rem !important;
   }
   .section-title {
     width: 31.25rem;
@@ -900,7 +900,7 @@ a {
   }
   .section-more__box {
     max-width: 200px;
-    margin-left: 50px !important;
+    margin-left: 40px !important;
     margin-right: 50px !important;
   }
   .section-title {
@@ -929,5 +929,15 @@ a {
   }
   .footer-element__link--first {
     display: none;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  .section-more__box {
+    margin-left: 0 !important;
+    width: 15.625rem;
+  }
+  .section-more__title {
+    margin-left: 3.5rem;
   }
 }
