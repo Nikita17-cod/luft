@@ -940,4 +940,7 @@ a {
   .section-more__title {
     margin-left: 3.5rem;
   }
+  .footer-element__p {
+    margin-left: 0.5rem;
+  }
 }
