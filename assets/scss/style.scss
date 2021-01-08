@@ -1,13 +1,11 @@
 @import 'variables';
 @import 'skin';
 
-@import 'mixins-media';
+@import 'media';
 @import 'mixins';
-@import 'extends';
 
 @import 'bootstrap-theming';
 
-@import 'common';
 @import 'header';
 @import 'main';
 @import 'page';
