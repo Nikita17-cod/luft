@@ -27,6 +27,13 @@ body {
 
 .section {
 
+  &-cd__body {
+    background-color: #E5E5E5;
+    &--a {
+      background-color:#F0F0F0;
+    }
+  }
+
   &-card {
     &__post {
       display: grid;
@@ -197,6 +204,10 @@ body {
     padding-top: 2.5rem;
     margin-left: 5rem;
     margin-bottom: 3.125rem;
+
+    &__img {
+      margin-top: 1rem;
+    }
   }
 
   &-forms {
@@ -275,14 +286,30 @@ body {
       color: $color-grin;
     }
   }
+  &-about {
+    &__description {
+      margin-bottom: 3rem;
+    }
+  }
 
   padding: 1.25rem;
 }
 
 .section-buttons {
 
+  margin-top: 1.5rem;
+  margin-bottom: -0.5rem;
+
+  &__a {
+    margin-top: 1.5rem;
+    margin-bottom: -0.5rem;
+    margin-left: 1.2rem;
+  }
+
   &__component {
     margin-right: 0.35rem;
+    border-radius: 2px;
+    border-width: 2px;
 
     &--a {
       margin-right: 0.35rem;
@@ -311,6 +338,26 @@ body {
   padding-right: 0;
   padding-left: 0;
   margin-bottom: 1.5625rem;
+
+
+  &-btn {
+    border: 2px solid #E4E4E4;
+    border-radius: 7px;
+    background-color: #FFFFFF;
+    color: #727272;
+    font-weight: 600;
+  }
+  &-button {
+    border: 2px solid #727272;
+    border-radius: 7px;
+    background-color: #FFFFFF;
+    color: #727272;
+    font-weight: 600;
+  }
+  &-title {
+    font-size: 27px;
+    font-weight: 700;
+  }
 }
 
 .main {
@@ -324,7 +371,7 @@ body {
       position: absolute;
       width: 22rem;
       height: 2rem;
-      left: 6.875rem;
+      left: 9.875rem;
       padding-top: 5.625rem;
       font-style: normal;
       font-weight: 650;
@@ -338,7 +385,7 @@ body {
         position: absolute;
         width: 37.5rem;
         height: 9rem;
-        left: 6.875rem;
+        left: 9.875rem;
         padding-top: 9.375rem;
         font-style: normal;
         font-weight: normal;
@@ -350,7 +397,7 @@ body {
         position: absolute;
         width: 37.5rem;
         height: 9rem;
-        left: 6.875rem;
+        left: 9.875rem;
         padding-top: 15.625rem;
         font-style: normal;
         font-weight: normal;
@@ -382,6 +429,7 @@ body {
     &__picture {
       margin-top: 6.25rem;
       height: auto;
+      margin-left: 4%;
       max-width: 100%;
     }
   }

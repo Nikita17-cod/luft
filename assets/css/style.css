@@ -123,6 +123,14 @@ body {
   padding: 1.25rem;
 }
 
+.section-cd__body {
+  background-color: #E5E5E5;
+}
+
+.section-cd__body--a {
+  background-color: #F0F0F0;
+}
+
 .section-card__post {
   display: grid;
   grid-row-gap: 0.625rem;
@@ -289,6 +297,10 @@ body {
   margin-bottom: 3.125rem;
 }
 
+.section-brands__img {
+  margin-top: 1rem;
+}
+
 .section-forms {
   margin-top: 3.125rem;
   margin-left: 3.125rem;
@@ -356,13 +368,27 @@ body {
   color: #14301F;
 }
 
+.section-about__description {
+  margin-bottom: 3rem;
+}
+
 .section-buttons {
+  margin-top: 1.5rem;
+  margin-bottom: -0.5rem;
   padding-bottom: 1.25rem;
   padding-left: 3.125rem;
 }
 
+.section-buttons__a {
+  margin-top: 1.5rem;
+  margin-bottom: -0.5rem;
+  margin-left: 1.2rem;
+}
+
 .section-buttons__component {
   margin-right: 0.35rem;
+  border-radius: 2px;
+  border-width: 2px;
 }
 
 .section-buttons__component--a {
@@ -392,6 +418,27 @@ body {
   margin-bottom: 1.5625rem;
 }
 
+.card-btn {
+  border: 2px solid #E4E4E4;
+  border-radius: 7px;
+  background-color: #FFFFFF;
+  color: #727272;
+  font-weight: 600;
+}
+
+.card-button {
+  border: 2px solid #727272;
+  border-radius: 7px;
+  background-color: #FFFFFF;
+  color: #727272;
+  font-weight: 600;
+}
+
+.card-title {
+  font-size: 27px;
+  font-weight: 700;
+}
+
 .main {
   background-color: #E5E5E5;
   position: relative;
@@ -405,7 +452,7 @@ body {
   position: absolute;
   width: 22rem;
   height: 2rem;
-  left: 6.875rem;
+  left: 9.875rem;
   padding-top: 5.625rem;
   font-style: normal;
   font-weight: 650;
@@ -417,7 +464,7 @@ body {
   position: absolute;
   width: 37.5rem;
   height: 9rem;
-  left: 6.875rem;
+  left: 9.875rem;
   padding-top: 9.375rem;
   font-style: normal;
   font-weight: normal;
@@ -429,7 +476,7 @@ body {
   position: absolute;
   width: 37.5rem;
   height: 9rem;
-  left: 6.875rem;
+  left: 9.875rem;
   padding-top: 15.625rem;
   font-style: normal;
   font-weight: normal;
@@ -459,6 +506,7 @@ body {
 .main-content__picture {
   margin-top: 6.25rem;
   height: auto;
+  margin-left: 4%;
   max-width: 100%;
 }
 
@@ -527,7 +575,7 @@ body {
 .section-btn {
   background-color: #FAFAFA;
   border: none;
-  margin-left: 2.5rem;
+  margin-left: 8rem;
 }
 
 .section-btn__arr {
