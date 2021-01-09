@@ -372,7 +372,7 @@ body {
 .main-content__picture {
   margin-top: 6.25rem;
   height: auto;
-  min-width: 100%;
+  max-width: 100%;
 }
 
 .section-cards {
@@ -720,18 +720,16 @@ a {
   .section-card__body {
     max-width: 60rem;
   }
-  .main-content__picture {
-    max-width: 18.75rem;
-  }
   .main-content__text--right {
+    max-width: 36.5rem !important;
     padding-top: 25rem;
-    padding-right: 10rem;
+    margin-left: -46rem;
   }
   .card {
     max-width: 60rem;
   }
   .footer-element__link--second {
-    margin-top: -1.3rem;
+    margin-top: -1rem;
     margin-left: -1.5rem;
   }
   .footer-element__link--first {
@@ -771,10 +769,11 @@ a {
     margin-left: 16rem;
   }
   .footer-element__link--second {
-    display: none;
+    margin-left: -12rem;
+    margin-top: 0;
   }
   .footer-element__link--first {
-    display: none;
+    margin-left: 0;
   }
   .footer-element__p {
     margin-left: 22%;
@@ -786,46 +785,38 @@ a {
   .footer-element__input {
     margin-left: 17%;
   }
+  .main-content {
+    height: 60rem;
+  }
+  .main-content__desc {
+    padding-top: 3rem;
+  }
   .main-content__image {
     display: none;
   }
   .main-content__picture {
-    margin-top: 6.25rem;
-    height: auto;
-    width: 3.125rem;
+    margin-top: 22rem;
   }
   .main-content__text--right {
-    position: absolute;
-    width: 20rem;
+    width: 17rem;
     height: 7rem;
-    left: 30rem;
-    padding-top: 9.375rem;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 0.7rem;
-    line-height: 1.5rem;
+    left: 77rem;
+    padding-top: 7rem;
+    font-size: 0.8rem;
   }
   .main-content__text--first {
-    position: absolute;
     width: 20rem;
     height: 7rem;
     left: 6.875rem;
-    padding-top: 9.375rem;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 0.7rem;
-    line-height: 1.5rem;
+    padding-top: 7rem;
+    font-size: 0.8rem;
   }
   .main-content__text--second {
-    position: absolute;
     width: 20rem;
     height: 7rem;
     left: 6.875rem;
-    padding-top: 15.625rem;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 0.7rem;
-    line-height: 1.5rem;
+    padding-top: 12rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -851,16 +842,18 @@ a {
     max-width: 31.25rem;
   }
   .section-forms__btn {
-    margin-left: 60px;
+    margin-left: 3.75rem;
   }
   .section-p {
     width: 30rem;
   }
   .footer-element__link--second {
-    display: none;
+    margin-top: -1.2rem;
+    margin-left: -14rem;
   }
   .footer-element__link--first {
-    display: none;
+    margin-top: 2rem;
+    margin-left: 6rem;
   }
   .footer-element__p {
     width: 25rem;
@@ -871,11 +864,15 @@ a {
   .header-content__description {
     width: 18.75rem;
   }
+  .main-content {
+    height: 70rem;
+  }
   .main-content__image {
     display: none;
   }
   .main-content__text--right {
-    margin-top: 16rem;
+    margin-top: 15rem;
+    margin-left: -70rem;
   }
   .form-group {
     width: 25rem;
@@ -884,6 +881,9 @@ a {
 }
 
 @media screen and (max-width: 576px) {
+  .main-content__desc {
+    margin-left: -3rem;
+  }
   .section-about__tags {
     display: inline;
   }
@@ -899,9 +899,9 @@ a {
     margin-left: 6.25rem;
   }
   .section-more__box {
-    max-width: 200px;
-    margin-left: 40px !important;
-    margin-right: 50px !important;
+    max-width: 12.5rem;
+    margin-left: 2.5rem !important;
+    margin-right: 3.125rem !important;
   }
   .section-title {
     width: 18.75rem;
@@ -925,14 +925,20 @@ a {
     display: none;
   }
   .footer-element__link--second {
-    display: none;
+    margin-top: 1rem;
   }
   .footer-element__link--first {
-    display: none;
+    margin-top: 4.5rem;
   }
 }
 
 @media screen and (max-width: 435px) {
+  .section {
+    padding: 0;
+  }
+  .section-buttons {
+    margin-left: 2rem;
+  }
   .section-more__box {
     margin-left: 0 !important;
     width: 15.625rem;
@@ -940,7 +946,46 @@ a {
   .section-more__title {
     margin-left: 3.5rem;
   }
+  .section-forms {
+    max-width: 19rem;
+  }
+  .section-forms__email, .section-forms__name, .section-forms__current, .section-forms__exp {
+    max-width: 16rem;
+    margin-right: 0;
+  }
+  .section-p {
+    font-size: 2.1875rem;
+  }
+  .section-title {
+    margin-left: 1.5rem;
+  }
   .footer-element__p {
     margin-left: 0.5rem;
+  }
+  .footer-element__link--second {
+    display: none;
+  }
+  .footer-element__link--first {
+    display: none;
+  }
+  .main {
+    margin-top: 1.5rem;
+  }
+  .main-content__desc {
+    font-size: 1.2rem;
+    width: 17rem;
+    margin-left: -3rem;
+  }
+  .main-content__text--second {
+    width: 16rem;
+    margin-left: -3rem;
+  }
+  .main-content__text--first {
+    width: 16rem;
+    margin-left: -3rem;
+  }
+  .main-content__text--right {
+    width: 16rem;
+    margin-left: -73rem;
   }
 }
