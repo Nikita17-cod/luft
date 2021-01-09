@@ -341,12 +341,31 @@ body {
   color: #14301F;
 }
 
+.section-p__job {
+  width: 50rem;
+  height: 2.5rem;
+  left: 2.5rem;
+  margin-top: 1.875rem;
+  margin-bottom: 1.25rem;
+  margin-left: 3.125rem;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.0625rem;
+  color: #14301F;
+}
+
 .section-buttons {
   padding-bottom: 1.25rem;
   padding-left: 3.125rem;
 }
 
 .section-buttons__component {
+  margin-right: 0.35rem;
+}
+
+.section-buttons__component--a {
   margin-right: 0.35rem;
 }
 
@@ -913,15 +932,18 @@ a {
 
 @media screen and (max-width: 768px) {
   .section-brands {
-    margin-left: 4.5rem;
+    margin-left: 7rem;
     margin-right: 4.5rem;
+  }
+  .section-title {
+    width: 40rem !important;
   }
   .section-card__body {
     height: auto;
   }
   .section-card__body--text {
     padding-right: 30%;
-    max-width: 110%;
+    max-width: 100%;
   }
   .section-card__body--title {
     padding-right: 10%;
@@ -931,10 +953,10 @@ a {
     margin-left: 0;
   }
   .section-more__title {
-    margin-left: 10.625rem;
+    margin-left: 30%;
   }
   .section-more__box {
-    margin-left: 6.5rem !important;
+    margin-left: 11rem !important;
   }
   .section-title {
     width: 31.25rem;
@@ -952,20 +974,29 @@ a {
   }
   .section-p {
     width: 30rem;
+    margin-bottom: 3rem;
+  }
+  .section-p__job {
+    max-width: 20rem;
   }
   .footer-element__link--second {
-    margin-top: -1.2rem;
-    margin-left: -14rem;
+    margin-top: 0.1rem;
+    margin-left: -20rem;
   }
   .footer-element__link--first {
-    margin-top: 2rem;
-    margin-left: 6rem;
+    margin-top: 5rem;
+    margin-left: 12.5rem;
   }
   .footer-element__p {
     width: 25rem;
   }
   .footer-element__button {
-    margin-left: 0;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: -23rem;
+  }
+  .footer-brand__img {
+    margin-left: -6rem;
   }
   .header-content__description {
     width: 18.75rem;
@@ -1042,14 +1073,40 @@ a {
   .footer-element__link--first {
     margin-top: 4.5rem;
   }
+  .card {
+    width: 23rem;
+  }
 }
 
 @media screen and (max-width: 435px) {
   .section {
     padding: 0;
   }
-  .section-buttons {
-    margin-left: 2rem;
+  .section-btn {
+    margin-left: 0;
+    margin-bottom: 2rem;
+  }
+  .section-mybuttons {
+    margin-left: 1rem;
+  }
+  .section-mybuttons__a {
+    margin-top: 1rem;
+    margin-left: 5rem;
+  }
+  .section-buttons__component {
+    margin-top: 1rem;
+    margin-left: 0.2rem;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+  }
+  .section-buttons__component--a {
+    margin-top: 1rem;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
   }
   .section-more__box {
     margin-left: 0 !important;
@@ -1065,10 +1122,15 @@ a {
     max-width: 16rem;
     margin-right: 0;
   }
-  .section-p {
+  .section-forms__btn {
+    margin-left: 2rem;
+  }
+  .section-p__job {
     font-size: 2.1875rem;
-    width: 14rem;
-    margin-left: 5rem;
+    width: 18rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
   }
   .section-title {
     margin-left: 1.5rem;
@@ -1101,5 +1163,8 @@ a {
   .main-content__text--right {
     width: 16rem;
     margin-left: -73rem;
+  }
+  .card {
+    width: 20rem;
   }
 }
