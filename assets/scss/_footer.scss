@@ -1,14 +1,15 @@
 .footer {
   position: relative;
+  background-color: #14301F;
 
   &-brand {
 
     &__luft {
       position: absolute;
-      margin-top: 0.625rem;
+      margin-top: 0.1rem;
       margin-left: 0.625rem;
       color: $color-light;
-      font-size: 1.0625rem;
+      font-size: 1.1rem;
       font-style: normal;
       font-weight: 600;
       line-height: 1.125rem;
@@ -16,7 +17,7 @@
 
     &__software {
       position: absolute;
-      margin-top: 0.625rem;
+      margin-top: 0.1rem;
       margin-left: 3.4375rem;
       color: $color-gray;
       font-style: normal;
@@ -25,16 +26,17 @@
       letter-spacing: 0.0625rem;
     }
 
-    &__img {
-      margin-left: 3.43rem;
-    }
+  }
+
+  &-bottom {
+    background-color: #08120C;
   }
 
   &-element {
 
     &__p {
       margin-top: 1.25rem;
-      margin-left: 1.875rem;
+      //margin-left: 1.875rem;
       width: 31.25rem;
     }
 
@@ -51,15 +53,14 @@
       max-width: 32rem;
       height: 3.125rem;
       margin-bottom: 1.25rem;
-      margin-left: 1.875rem;
+      //margin-left: 1.875rem;
       width: 31.25rem;
       border-width: 0.125rem;
       border-radius: 0.125rem;
     }
 
     &__button {
-
-      margin-left: 10rem;
+      float: right;
 
       &--en {
         background-color: $color-light;
@@ -86,16 +87,12 @@
     &__link {
 
       &--first {
-        position: absolute;
-        margin-top: 3.125rem;
-        margin-left: 20rem;
+        float: right;
         opacity: 50%;
       }
 
       &--second {
-        position: absolute;
-        margin-top: 1.25rem;
-        margin-left: 10rem;
+        float: right;
         opacity: 50%;
       }
     }

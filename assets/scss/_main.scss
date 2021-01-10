@@ -27,6 +27,8 @@ body {
 
 .section {
 
+
+
   &-cd__body {
     background-color: #E5E5E5;
     &--a {
@@ -35,14 +37,15 @@ body {
   }
 
   &-card {
+
     &__post {
       display: grid;
       grid-row-gap: 0.625rem;
       grid-column-gap: 0.625rem;
       //grid-template-columns: minmax(0, min-content) 1fr 1fr 1fr minmax(0, min-content);
       //grid-template-rows: repeat(5, minmax(min-content, max-content));
-      margin-left: 43rem;
-      margin-top: -28.5rem;
+      margin-left: 42rem;
+      margin-top: -28rem;
       width: 37.5rem;
       height: 25rem;
       padding: 0.625rem;
@@ -105,7 +108,6 @@ body {
       background-color: $color-grin;
       height: 31.25rem;
       border-radius: 0.625rem;
-      margin-left: 0.625rem;
 
       &--photo {
         display: flex;
@@ -168,24 +170,22 @@ body {
     }
 
     &__title {
-      width: 20.625rem;
       font-size: 1.25rem;
       font-weight: 700;
       margin-left: 1rem;
-
-      &--short {
-        width: 11.25rem;
-        font-size: 1.25rem;
-        font-weight: 700;
+      &--s {
+        width: 70%;
         margin-left: 1rem;
       }
-
     }
 
     &__text {
       color: #006427;
       margin-left: 1rem;
       margin-bottom: 2rem;
+      &--c {
+        color: #006427;
+      }
     }
 
     &__img {
@@ -212,9 +212,12 @@ body {
 
   &-forms {
 
-    margin-top: 3.125rem;
-    margin-left: 3.125rem;
-    width: 50rem;
+    &__file {
+      background-color: $color-light;
+      border: 0.0625rem solid #CED4DA;
+      border-radius: 0.25rem;
+      height: 13rem;
+    }
 
     &__btn {
       background-color: $color-grin;
@@ -232,17 +235,17 @@ body {
   }
 
   &-title {
-    width: 56.25rem;
+    width: auto;
     margin-top: 2rem;
-    margin-left: 3.125rem;
+    margin-left: 0!important;
   }
 
   &-h {
 
-    &__four {
-      font-weight: 400;
-      margin-left: 3.125rem;
-    }
+    //&__four {
+    //  font-weight: 400;
+    //  margin-left: 3.125rem;
+    //}
 
     &__three {
       margin-top: 2.625rem;
@@ -253,21 +256,30 @@ body {
 
   }
 
-  &-p {
-    width: 50rem;
+  &-j {
     height: 2.5rem;
-    left: 2.5rem;
-    margin-top: 1.875rem;
-    margin-bottom: 1.25rem;
-    margin-left: 3.125rem;
     font-style: normal;
-    font-weight: 900;
-    font-size: 2.5rem;
+    width: 20rem;
+    font-weight: 800;
+    font-size: 2rem;
     line-height: 2.5rem;
 
     letter-spacing: 0.0625rem;
 
     color: $color-grin;
+  }
+
+  &-p {
+    height: 2.5rem;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+
+    letter-spacing: 0.0625rem;
+
+    color: $color-grin;
+
 
     &__job {
       width: 50rem;
@@ -290,6 +302,13 @@ body {
     &__description {
       margin-bottom: 3rem;
     }
+    &__img {
+      width: 62.5rem;
+    }
+    &__s {
+      color: #7D7D7D;
+      font-weight: normal;
+    }
   }
 
   padding: 1.25rem;
@@ -308,8 +327,8 @@ body {
 
   &__component {
     margin-right: 0.35rem;
-    border-radius: 2px;
-    border-width: 2px;
+    border-radius: 0.125rem;
+    border-width: 0.125rem;
 
     &--a {
       margin-right: 0.35rem;
@@ -331,6 +350,9 @@ body {
 .cards {
   display: flex;
   justify-content: space-around;
+  &-border {
+    border: 0.1875rem solid black;
+  }
 }
 
 .card {
@@ -338,24 +360,38 @@ body {
   padding-right: 0;
   padding-left: 0;
   margin-bottom: 1.5625rem;
-
+  &-l {
+    max-width: 40rem;
+    margin-right: 5rem;
+  }
+  &-r {
+    max-width: 40rem;
+    margin-right: 5rem;
+  }
+  &-title {
+    margin-left: 1rem;
+  }
+  &-btn {
+    margin-left: 1rem;
+    margin-bottom: 5rem;
+  }
 
   &-btn {
-    border: 2px solid #E4E4E4;
-    border-radius: 7px;
+    border: 0.125rem solid #E4E4E4;
+    border-radius: 0.4375rem;
     background-color: #FFFFFF;
     color: #727272;
     font-weight: 600;
   }
   &-button {
-    border: 2px solid #727272;
-    border-radius: 7px;
+    border: 0.125rem solid #727272;
+    border-radius: 0.4375rem;
     background-color: #FFFFFF;
     color: #727272;
     font-weight: 600;
   }
   &-title {
-    font-size: 27px;
+    font-size: 1.6875rem;
     font-weight: 700;
   }
 }
@@ -363,75 +399,19 @@ body {
 .main {
   background-color: #E5E5E5;
   position: relative;
-
-  &-content {
-    height: 87.5rem;
-
-    &__desc {
-      position: absolute;
-      width: 22rem;
-      height: 2rem;
-      left: 9.875rem;
-      padding-top: 5.625rem;
-      font-style: normal;
-      font-weight: 650;
-      font-size: 1.5625rem;
-      line-height: 2rem;
-    }
-
-    &__text {
-
-      &--first {
-        position: absolute;
-        width: 37.5rem;
-        height: 9rem;
-        left: 9.875rem;
-        padding-top: 9.375rem;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1rem;
-        line-height: 1.5rem;
-      }
-
-      &--second {
-        position: absolute;
-        width: 37.5rem;
-        height: 9rem;
-        left: 9.875rem;
-        padding-top: 15.625rem;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1rem;
-        line-height: 1.5rem;
-      }
-
-      &--right {
-        position: absolute;
-        width: 37.5rem;
-        height: 9rem;
-        left: 53.125rem;
-        padding-top: 9.375rem;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1rem;
-        line-height: 1.5rem;
-      }
-
-    }
-
-    &__image {
-      width: 16.25rem;
-      height: 15.3125rem;
-      margin-top: 5rem;
-      margin-left: 13.125rem;
-    }
-
-    &__picture {
-      margin-top: 6.25rem;
-      height: auto;
-      margin-left: 4%;
-      max-width: 100%;
-    }
+  &-desc {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #14301F;
+  }
+  &-text {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #14301F;;
+  }
+  &-image {
+    width: 16.25rem;
+    height: 15.3125rem;
   }
 }
 
@@ -439,7 +419,6 @@ body {
 
   display: grid;
   justify-content: start;
-  margin-left: 3.125rem;
 
   &__p {
     margin-bottom: 0.9375rem;

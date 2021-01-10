@@ -4,7 +4,6 @@
 
     background-color: #FAFAFA;
     border: none;
-    margin-left: 8rem;
 
     &__arr {
       color: #7D7D7D;
@@ -53,7 +52,7 @@
     }
 
     &__accent {
-      border-left: 0.375rem solid black;
+      border-left: 0.375rem solid #2B4435;
       height: auto;
       padding-left: 1.875rem;
 
@@ -79,30 +78,31 @@
 
 .section-more {
   background: #F0F0F0;
-  padding: 3.125rem 0;
+  &__w {
+    width: 17rem;
+  }
 
   &__title {
     font-weight: 750;
     font-size: 1.875rem;
   }
 
-  &__box {
-    margin-top: 1.25rem;
-  }
-
 }
 
 .card {
   background-color: transparent;
-  //border: none;
-  margin: 1.25rem;
 }
 
-.container-my {
-  max-width: 62.5rem;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
+.container {
+  &-my {
+    max-width: 62.5rem;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  &-lg {
+    max-width: 55rem!important;
+  }
 }
 
 .section-mybuttons {

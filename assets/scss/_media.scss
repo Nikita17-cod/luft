@@ -1,9 +1,9 @@
 @media screen and (max-width: 1350px) {
   .section {
     &-info {
-      &__a {
-        margin-left: 10rem;
-      }
+      //&__a {
+      //  margin-left: 10rem;
+      //}
     }
 
     &-card {
@@ -20,18 +20,18 @@
 
   .section {
     &-info {
-      width: 25rem !important;
+      //width: 25rem !important;
 
-      &__a {
-        margin-left: 1.2rem;
-        width: 25rem !important;
-      }
+      //&__a {
+      //  margin-left: 1.2rem;
+      //  width: 25rem !important;
+      //}
     }
 
     &-more {
-      &__title {
-        margin-left: 21.875rem;
-      }
+      //&__title {
+      //  margin-left: 21.875rem;
+      //}
 
       &__box {
         margin-left: 1.875rem;
@@ -63,22 +63,22 @@
     }
   }
 
-  .card {
-    max-width: 60rem;
-  }
+  //.card {
+  //  //max-width: 60rem;
+  //}
 
   .footer-element {
-    &__link {
-      &--second {
-        margin-top: -1rem;
-        margin-left: -1.5rem;
-      }
-
-      &--first {
-        margin-top: 2rem;
-        margin-left: 0;
-      }
-    }
+    //&__link {
+    //  &--second {
+    //    margin-top: -1rem;
+    //    margin-left: -1.5rem;
+    //  }
+    //
+    //  &--first {
+    //    margin-top: 2rem;
+    //    margin-left: 0;
+    //  }
+    //}
   }
 }
 
@@ -104,13 +104,13 @@
         display: none;
       }
 
-      &__email, &__name, &__current {
-        max-width: 43.75rem;
-      }
-
-      &__exp {
-        max-width: 18.3125rem;
-      }
+      //&__email, &__name, &__current {
+      //  max-width: 43.75rem;
+      //}
+      //
+      //&__exp {
+      //  max-width: 18.3125rem;
+      //}
     }
 
     &-title {
@@ -119,22 +119,22 @@
       margin-left: 3.125rem;
     }
 
-    &-more__title {
-      margin-left: 16rem;
-    }
+    //&-more__title {
+    //  margin-left: 16rem;
+    //}
   }
 
   .footer-element {
-    &__link {
-      &--second {
-        margin-left: -12rem;
-        margin-top: 0;
-      }
-
-      &--first {
-        margin-left: 0;
-      }
-    }
+    //&__link {
+    //  &--second {
+    //    margin-left: -12rem;
+    //    margin-top: 0;
+    //  }
+    //
+    //  &--first {
+    //    margin-left: 0;
+    //  }
+    //}
 
     &__p {
       margin-left: 22%;
@@ -151,7 +151,7 @@
   }
 
   .main-content {
-    height: 60rem;
+    //min-height: 200rem;
 
     &__desc {
       padding-top: 3rem;
@@ -208,7 +208,7 @@
       margin-right: 4.5rem;
     }
     &-title {
-      width: 40rem!important;
+      //width: 40rem!important;
     }
 
     &-card {
@@ -232,9 +232,9 @@
     }
 
     &-more {
-      &__title {
-        margin-left: 30%;
-      }
+      //&__title {
+      //  margin-left: 30%;
+      //}
 
       &__box {
         margin-left: 11rem !important;
@@ -250,9 +250,9 @@
     &-forms {
       width: 20rem;
 
-      &__email, &__name, &__current, &__exp {
-        max-width: 31.25rem;
-      }
+      //&__email, &__name, &__current, &__exp {
+      //  max-width: 31.25rem;
+      //}
 
       &__btn {
         margin-left: 3.75rem;
@@ -271,17 +271,17 @@
 
   .footer {
     &-element {
-      &__link {
-        &--second {
-          margin-top: 0.1rem;
-          margin-left: -20rem;
-        }
-
-        &--first {
-          margin-top: 5rem;
-          margin-left: 12.5rem;
-        }
-      }
+      //&__link {
+      //  &--second {
+      //    margin-top: 0.1rem;
+      //    margin-left: -20rem;
+      //  }
+      //
+      //  &--first {
+      //    margin-top: 5rem;
+      //    margin-left: 12.5rem;
+      //  }
+      //}
 
       &__p {
         width: 25rem;
@@ -305,7 +305,7 @@
   }
 
   .main-content {
-    height: 70rem;
+    //height: 70rem;
 
     &__image {
       display: none;
@@ -338,13 +338,6 @@
   }
 
   .section {
-    &-info {
-      display: none;
-
-      &__a {
-        display: none;
-      }
-    }
 
     &-about__tags {
       display: inline;
@@ -352,7 +345,7 @@
 
 
     &-p {
-      width: 20rem;
+      width: 18rem;
       margin-bottom: 2.5rem;
       margin-left: 2rem;
     }
@@ -362,9 +355,6 @@
     }
 
     &-more {
-      &__title {
-        margin-left: 6.25rem;
-      }
 
       &__box {
         max-width: 12.5rem;
@@ -379,11 +369,11 @@
       margin-left: 3.125rem;
     }
 
-    &-forms {
-      &__email, &__name, &__current {
-        max-width: 18.75rem;
-      }
-    }
+    //&-forms {
+    //  &__email, &__name, &__current {
+    //    max-width: 18.75rem;
+    //  }
+    //}
 
     &-buttons {
       padding-left: 0;
@@ -404,15 +394,15 @@
       display: none;
     }
 
-    &__link {
-      &--second {
-        margin-top: 1rem;
-      }
-
-      &--first {
-        margin-top: 4.5rem;
-      }
-    }
+    //&__link {
+    //  &--second {
+    //    margin-top: 1rem;
+    //  }
+    //
+    //  &--first {
+    //    margin-top: 4.5rem;
+    //  }
+    //}
   }
   .card {
     width: 23rem;
@@ -431,7 +421,7 @@
       margin-bottom: 2rem;
     }
     &-mybuttons {
-      margin-left: 1rem;
+      //margin-left: 1rem;
 
       &__a {
         margin-top: 1rem;
@@ -463,18 +453,18 @@
         width: 15.625rem;
       }
 
-      &__title {
-        margin-left: 3.5rem;
-      }
+      //&__title {
+      //  //margin-left: 3.5rem;
+      //}
     }
 
     &-forms {
       max-width: 19rem;
 
-      &__email, &__name, &__current, &__exp {
-        max-width: 16rem;
-        margin-right: 0;
-      }
+      //&__email, &__name, &__current, &__exp {
+      //  max-width: 16rem;
+      //  margin-right: 0;
+      //}
       &__btn {
         margin-left: 2rem;
       }
@@ -499,15 +489,15 @@
       //margin-right: 5rem!important;
     }
 
-    &__link {
-      &--second {
-        display: none
-      }
-
-      &--first {
-        display: none
-      }
-    }
+    //&__link {
+    //  &--second {
+    //    display: none
+    //  }
+    //
+    //  &--first {
+    //    display: none
+    //  }
+    //}
   }
 
   .main {

@@ -21,8 +21,8 @@
     <title>Luft</title>
 </head>
 <body>
-<header class="header" style="background-color: #14301F; background-image: url(assets/img/image63.png);">
-    <div class="header-overlay" style="background-color: #14301F; opacity: 0.8;"></div>
+<header class="header">
+    <div class="header-overlay"></div>
 
     <div class="header-navbar navbar-fixed-top row header-menu">
         <nav class="navbar navbar-expand-md navbar-dark static-top bg-dark bg-transparent">
@@ -36,7 +36,7 @@
                         aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse" id="navbarCollapse" style="">
+                <div class="navbar-collapse collapse" id="navbarCollapse">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0"></ul>
                     <form class="d-flex">
                         <ul class="navbar-nav me-auto mb-2 mb-md-0">
@@ -81,42 +81,46 @@
     </div>
 </header>
 
-<main class="main container-fluid">
+<main class="main container-fluid mx-auto">
     <section class="main-content">
-        <div class="container">
+        <div class="container-fluid my-5">
             <div class="row">
-                <div class="col-sm">
-                    <p class="main-content__desc">It’s always starts from person</p>
-                    <p class="main-content__text--first">Ihre Kontodaten sind nur bei PayPal hinterlegt. Nach dem
+                <div class="col-lg-6 col-md-12">
+                    <h4 class="main-desc">It’s always starts from person</h4>
+                    <p class="main-text mt-5">Ihre Kontodaten sind nur bei PayPal hinterlegt. Nach dem
                         Zahlungseingang erfolgt der Versand der Ware.</p>
-                    <p class="main-content__text--second">PayPal ist eine sichere Zahlungsmethode mit Käuferschutz. Sie
+                    <p class="main-text mt-5">PayPal ist eine sichere Zahlungsmethode mit Käuferschutz. Sie
                         können mit Kredit - oder Debitkarte zahlen. Ihre Kontodaten sind nur bei PayPal hinterlegt. Nach
                         dem Zahlungseingang erfolgt der Versand der Ware.</p>
                 </div>
-                <div class="col-sm">
-                    <img class="main-content__image" src="assets/img/Rectangle1198.svg" alt="logo">
+                <div class="col-lg-6 col-md-12">
+                    <img class="main-image mx-auto d-block" src="assets/img/Rectangle1198.svg" alt="logo">
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container-fluid my-5">
             <div class="row">
-                <div class="col-sm">
-                    <img src="assets/img/Rectangle18.png" class="main-content__picture img-" alt="picture">
+                <div class="col-12">
+                    <img src="assets/img/Rectangle18.png" class="h-auto w-100" alt="picture">
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container-fluid my-5">
+            <div class="row mb-5">
+                <div class="col-12">
+                    <h4 class="main-desc">It’s always starts from person</h4>
+                </div>
+            </div>
             <div class="row">
-                <div class="col-sm">
-                    <p class="main-content__desc">It’s always starts from person</p>
-                    <p class="main-content__text--first">Ihre Kontodaten sind nur bei PayPal hinterlegt. Nach dem
+                <div class="col-md-12 col-lg-6">
+                    <p class="main-text">Ihre Kontodaten sind nur bei PayPal hinterlegt. Nach dem
                         Zahlungseingang erfolgt der Versand der Ware.</p>
-                    <p class="main-content__text--second">PayPal ist eine sichere Zahlungsmethode mit Käuferschutz. Sie
+                    <p class="main-text mt-5">PayPal ist eine sichere Zahlungsmethode mit Käuferschutz. Sie
                         können mit Kredit - oder Debitkarte zahlen. Ihre Kontodaten sind nur bei PayPal hinterlegt. Nach
                         dem Zahlungseingang erfolgt der Versand der Ware.</p>
                 </div>
-                <div class="col-sm-12">
-                    <p class="main-content__text--right">PayPal ist eine sichere Zahlungsmethode mit Käuferschutz. Sie
+                <div class="col-md-12 col-lg-6">
+                    <p class="main-text">PayPal ist eine sichere Zahlungsmethode mit Käuferschutz. Sie
                         können mit Kredit - oder Debitkarte zahlen. Ihre Kontodaten sind nur bei PayPal hinterlegt. Nach
                         dem Zahlungseingang erfolgt der Versand der Ware.</p>
                 </div>
@@ -125,36 +129,46 @@
     </section>
 </main>
 
-<footer class="footer text-white text-center text-lg-start" style="background-color: #14301F">
+<footer class="footer text-white text-center text-lg-start">
     <div class="footer-element container-fluid p-4">
-        <div class="row">
-            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <div class="row mb-5 mb-md-0">
+            <div class="col-lg-6 col-md-12">
                 <span class="footer-element__text text-uppercase">Let’s build the next level product together</span>
             </div>
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <ul class="list-unstyled mb-0">
-                    <li>
-                        <a href="#" class="footer-element__link--first text-white">[Company address here]</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <a class="footer-element__button btn btn-light btn-sm wb" href="#" role="button"
-                   style="opacity: 90%"><b>SEND AN EMAIL</b></a>
-                <ul class="list-unstyled">
-                    <li>
-                        <a href="#" class="footer-element__link--second text-white">[Contact number]</a>
-                    </li>
-                </ul>
+            <div class="col-lg-6 col-md-12">
+                <div class="row">
+                    <div class="col-12">
+                        <a class="footer-element__button btn btn-light btn-md wb" href="#" role="button"><b>SEND AN EMAIL</b></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-9 mt-3">
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#" class="footer-element__link--first text-white">[Company address here]</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-3 mt-3">
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#" class="footer-element__link--second text-white">[Contact number]</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="text-left p-2" style="background-color: #08120C">
-        <a class="footer-brand" href="#">
-            <img src="assets/img/Rectangle1198.svg" alt="" width="22" height="42"
-                 class="footer-brand__img d-inline-block align-top">
-            <span class="footer-brand__luft">LUFT</span><span class="footer-brand__software"> software</span>
-        </a>
+    <div class="footer-bottom container-fluid p-4">
+        <div class="row">
+            <div class="col-12">
+                <a class="footer-brand" href="#">
+                    <img src="assets/img/Rectangle1198.svg" alt="logo" class="footer-brand__img d-inline-block align-top">
+                    <span class="footer-brand__luft">LUFT</span><span class="footer-brand__software"> software</span>
+                </a>
+            </div>
+        </div>
     </div>
 </footer>
 

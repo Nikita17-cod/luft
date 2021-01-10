@@ -16,7 +16,7 @@
     <title>Luft</title>
 </head>
 <body>
-<header class="header" style="background-color: #E5E5E5;">
+<header class="header-light">
     <div class="header-navbar navbar-fixed-top row header-menu">
         <nav class="navbar navbar-expand-md navbar-dark static-top bg-transparent">
             <div class="container-fluid">
@@ -30,7 +30,7 @@
                 </button>
                 <div class="navbar-collapse collapse" id="navbarCollapse" style="">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0"></ul>
-                    <form class="d-flex">
+                    <div class="d-flex">
                         <ul class="navbar-nav me-auto mb-2 mb-md-0">
                             <li class="nav-item">
                                 <a class="nav-link" href="index.html" style="color: #14301F">(index)</a>
@@ -54,94 +54,167 @@
                                 <a class="nav-link" href="page7.html" style="color: #14301F">(p7)</a>
                             </li>
                             <li class="nav-item">
-                                <a class="btn btn-secondary border-0 btn-sm wb" href="page8.html" style="background-color: #14301F"
+                                <a class="btn btn-secondary navbar-light__light--bg border-0 btn-sm wb"
+                                   href="page8.html"
                                    role="button"><b>(p8)</b></a>
                             </li>
                         </ul>
-                    </form>
+                    </div>
                 </div>
             </div>
         </nav>
     </div>
 </header>
 
-<main class="main container-fluid">
+<main class="container-fluid">
     <section class="section">
-        <div class="section-p__job">
-            <p>Job application</p>
-        </div>
-        <h4 class="section-h__four">Senior Front-end developer</h4>
-        <p class="section-title">Wir bieten Ihnen den Tausch Ihres kaputten Teiles gegen ein neuwertiges an. Dafür
-            wählen Sie ein als „Austauschartikel“
-            gekennzeichnetes Produkt. Bezahlen Sie die Ware und das Pfand, den sie nach dem Austausch wieder zurück
-            bekommen.
-            Wir liefern Ihnen das serieninstandgesetzte Autoersatzteil und Sie tauschen es gegen das kaputte</p>
-        <h3 class="section-h__three">Simple, easy form to go</h3>
-        <form class="section-forms">
-            <div class="mb-3">
-                <input type="text" class="section-forms__name form-control" id="exampleFormControlInput1"
-                       aria-label="Your full name" placeholder="Your full name"><br>
-                <input type="email" class="section-forms__email form-control" id="exampleFormControlInput2"
-                       aria-label="Email address" placeholder="Email address"><br>
-                <div class="row g-3">
-                    <div class="col-sm-6">
-                        <input type="text" class="section-forms__current form-control"
-                               placeholder="Current expertise level" aria-label="Current expertise level">
+        <div class="container-fluid mx-auto">
+            <div class="row">
+                <div class="col-8">
+                    <button type="button" class="mb-3 section-btn btn btn-light bg-transparent"><i
+                            class="section-btn__arr fas fa-arrow-left"></i><b class="section-btn__back"> BACK TO ALL</b>
+                    </button>
+                    <div class="section-j mb-3">
+                        <p>Job application</p>
                     </div>
-                    <div class="col-sm-6">
-                        <input type="text" class="section-forms__exp form-control" placeholder="Years of exp."
-                               aria-label="Years of exp."><br>
-                    </div>
-                </div>
-                <div class="section-forms__control container-fluid">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <form method="post" action="#" id="#">
-                                <div class="form-group files">
-                                    <input type="file" class="form-control" multiple="">
+                    <h4 class="section-h__four">Senior Front-end developer</h4>
+                    <p class="section-title mb-5">Wir bieten Ihnen den Tausch Ihres kaputten Teiles gegen ein
+                        neuwertiges an. Dafür
+                        wählen Sie ein als „Austauschartikel“
+                        gekennzeichnetes Produkt. Bezahlen Sie die Ware und das Pfand, den sie nach dem Austausch wieder
+                        zurück
+                        bekommen.
+                        Wir liefern Ihnen das serieninstandgesetzte Autoersatzteil und Sie tauschen es gegen das kaputte
+                    </p>
+                    <h4 class="main-desc mb-3">Simple, easy form to go</h4>
+                    <form class="section-forms content-fluid">
+                        <div class="mb-3">
+                            <input type="text" class="section-forms__name form-control" id="exampleFormControlInput1"
+                                   aria-label="Your full name" placeholder="Your full name"><br>
+                            <input type="email" class="section-forms__email form-control" id="exampleFormControlInput2"
+                                   aria-label="Email address" placeholder="Email address"><br>
+                            <div class="row g-3">
+                                <div class="col-sm-6">
+                                    <input type="text" class="section-forms__current form-control"
+                                           placeholder="Current expertise level" aria-label="Current expertise level">
                                 </div>
-                            </form>
+                                <div class="col-sm-6">
+                                    <input type="text" class="section-forms__exp form-control"
+                                           placeholder="Years of exp."
+                                           aria-label="Years of exp."><br>
+                                </div>
+                            </div>
+                            <div class="section-forms__control">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <form method="post" action="#" id="#">
+                                            <div class="section-forms__file form-group files">
+                                                <input type="file" class="d-none form-control" multiple="">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button type="button" class="section-forms__btn btn btn-success">SEND APPLICARION</button>
                         </div>
-                    </div>
+
+                    </form>
                 </div>
-                <button type="button" class="section-forms__btn btn btn-success">SEND APPLICARION</button>
             </div>
-
-        </form>
-
+        </div>
     </section>
 </main>
 
+<!--<main class="main container-fluid">-->
+<!--    <section class="section">-->
+<!--        <div class="section-p__job">-->
+<!--            <p>Job application</p>-->
+<!--        </div>-->
+<!--        <h4 class="section-h__four">Senior Front-end developer</h4>-->
+<!--        <p class="section-title">Wir bieten Ihnen den Tausch Ihres kaputten Teiles gegen ein neuwertiges an. Dafür-->
+<!--            wählen Sie ein als „Austauschartikel“-->
+<!--            gekennzeichnetes Produkt. Bezahlen Sie die Ware und das Pfand, den sie nach dem Austausch wieder zurück-->
+<!--            bekommen.-->
+<!--            Wir liefern Ihnen das serieninstandgesetzte Autoersatzteil und Sie tauschen es gegen das kaputte</p>-->
+<!--        <h3 class="section-h__three">Simple, easy form to go</h3>-->
+<!--        <form class="section-forms">-->
+<!--            <div class="mb-3">-->
+<!--                <input type="text" class="section-forms__name form-control" id="exampleFormControlInput1"-->
+<!--                       aria-label="Your full name" placeholder="Your full name"><br>-->
+<!--                <input type="email" class="section-forms__email form-control" id="exampleFormControlInput2"-->
+<!--                       aria-label="Email address" placeholder="Email address"><br>-->
+<!--                <div class="row g-3">-->
+<!--                    <div class="col-sm-6">-->
+<!--                        <input type="text" class="section-forms__current form-control"-->
+<!--                               placeholder="Current expertise level" aria-label="Current expertise level">-->
+<!--                    </div>-->
+<!--                    <div class="col-sm-6">-->
+<!--                        <input type="text" class="section-forms__exp form-control" placeholder="Years of exp."-->
+<!--                               aria-label="Years of exp."><br>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="section-forms__control container-fluid">-->
+<!--                    <div class="row">-->
+<!--                        <div class="col-md-12">-->
+<!--                            <form method="post" action="#" id="#">-->
+<!--                                <div class="form-group files">-->
+<!--                                    <input type="file" class="form-control" multiple="">-->
+<!--                                </div>-->
+<!--                            </form>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <button type="button" class="section-forms__btn btn btn-success">SEND APPLICARION</button>-->
+<!--            </div>-->
+
+<!--        </form>-->
+
+<!--    </section>-->
+<!--</main>-->
+
 <footer class="footer text-white text-center text-lg-start" style="background-color: #14301F">
     <div class="footer-element container-fluid p-4">
-        <div class="row">
-            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <div class="row mb-5 mb-md-0">
+            <div class="col-lg-6 col-md-12">
                 <span class="footer-element__text text-uppercase">Let’s build the next level product together</span>
             </div>
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <ul class="list-unstyled mb-0">
-                    <li>
-                        <a href="#" class="footer-element__link--first text-white">[Company address here]</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <a class="footer-element__button btn btn-light btn-sm wb" href="#" role="button"
-                   style="opacity: 90%"><b>SEND AN EMAIL</b></a>
-                <ul class="list-unstyled">
-                    <li>
-                        <a href="#" class="footer-element__link--second text-white">[Contact number]</a>
-                    </li>
-                </ul>
+            <div class="col-lg-6 col-md-12">
+                <div class="row">
+                    <div class="col-12">
+                        <a class="footer-element__button btn btn-light btn-md wb" href="#" role="button"><b>SEND AN
+                            EMAIL</b></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-9 mt-3">
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#" class="footer-element__link--first text-white">[Company address here]</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-3 mt-3">
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#" class="footer-element__link--second text-white">[Contact number]</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="text-left p-2" style="background-color: #08120C">
-        <a class="footer-brand" href="#">
-            <img src="assets/img/Rectangle1198.svg" alt="" width="22" height="42"
-                 class="footer-brand__img d-inline-block align-top">
-            <span class="footer-brand__luft">LUFT</span><span class="footer-brand__software"> software</span>
-        </a>
+    <div class="footer-bottom container-fluid p-4">
+        <div class="row">
+            <div class="col-12">
+                <a class="footer-brand" href="#">
+                    <img src="assets/img/Rectangle1198.svg" alt="logo"
+                         class="footer-brand__img d-inline-block align-top">
+                    <span class="footer-brand__luft">LUFT</span><span class="footer-brand__software"> software</span>
+                </a>
+            </div>
+        </div>
     </div>
 </footer>
 
